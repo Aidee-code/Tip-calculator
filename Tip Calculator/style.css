@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+}
+
+body{
+    background: hsl(185, 41%, 84%);
+}
+
+.logo img{
+    display: block;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.parent-container{
+    border-radius: 20px;
+    height: auto;
+    width: 60vw;
+    justify-content: center;
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin: auto;
+    background:  white;
+}
+
+.sub-container-1{
+    width: 50%;
+    height: auto;
+    margin: 1rem 1.5rem;
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-top: 15px;
+    /* min-width: 40%; */
+}
+
+
+.bill-1-container{
+    margin-bottom: 2rem;
+}
+
+.bill-1-container .bill-1{
+    display: block;
+    color: black;
+}
+
+.bill-1-container input{
+    border-radius: 10px;
+    border: none;
+    font-size: 1.4rem;
+    background: hsl(189, 41%, 97%);
+    background-image: url('./assets/icon-dollar.svg');
+    background-repeat: no-repeat;
+    background-size: 15px;
+    text-align: right;
+}
+
+.select-tips{
+    color: black;
+    font-size: 0.8rem;
+    padding: 12px 5px;
+}
+
+.percentages button{
+    margin-right: 0.3rem;
+    margin-bottom: 0.4rem;
+    padding: 10px 20px;
+    background: hsl(183, 100%, 15%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    width: 5rem;
+}
+
+
+.percentages {
+    margin-bottom: 1.5rem;
+    /* width: 80%; */
+    min-width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.percentages input{
+    width: 45px;
+    height: 15px;
+    border-radius: 4px;
+    padding: 3.5px 15px;
+    background: hsl(189, 41%, 97%);
+    border: none;
+}
+
+.no-of-peps-container label{
+    display: block;
+    font-size: 0.8rem;
+    margin-bottom: 0.4rem;
+    color: black;
+}
+
+.no-of-peps-container input{
+    width: 80%;
+    padding: 0.2rem;
+    background: hsl(189, 41%, 97%);;
+    border: none;
+    background-image: url('./assets/icon-person.svg');
+    position: right; 
+    padding-left: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    /* font-size: ; */
+}
+
+.sub-container-2{
+    width: 50%;
+    height: auto;
+    padding: 1.5rem;
+    margin: 1rem 1.5rem;
+    border: 1px solid black;
+    border-radius: 15px;
+    background:  hsl(183, 100%, 15%);
+}
+
+.tip-amt{
+    display: flex;
+}
+
+.tip-amt h3{
+    color: white;
+}
+
+.tip-amt span{
+    margin-right: 4rem;
+    font-size: 0.8rem;
+    font-weight: 100;
+    color: grey;
+}
+
+.tip-amt h2{
+    width: 6rem;
+    color: hsl(172, 67%, 45%);
+    font-weight: bold;
+    border: 1px solid hsl(183, 100%, 15%);
+    border-radius: 10px;
+    background: hsl(183, 100%, 15%);
+    font-size: 2rem;
+    margin-left: 7rem;
+}
+
+.Total{
+    margin-top: 2rem;
+    display: flex;
+}
+
+.Total h3{
+    color: white;
+}
+
+.Total span{
+    margin-right: 6.8rem;
+    font-size: 0.8rem;
+    font-weight: 100;
+    color: grey;
+}
+
+.Total h2{
+    width: 6rem;
+    color: hsl(172, 67%, 45%);
+    font-weight: bold;
+    border: 1px solid hsl(183, 100%, 15%);
+    border-radius: 10px;
+    background: hsl(183, 100%, 15%);
+    font-size: 2rem;
+    margin-left: 7rem ;
+}
+
+.sub-container-2 button{
+    margin: auto;
+    display: block;
+    margin-top: 6rem;
+    width: 85%;
+    padding: 0.5rem;
+    background: hsl(172, 67%, 45%);
+    border: none;
+    border-radius: 5px;
+
+}

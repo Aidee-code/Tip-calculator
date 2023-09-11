@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <div class="logo">
+        <img src="./assets/logo.svg" alt="logo">
+    </div>
+<section class="parent-container"> 
+<form>
+    <div class="sub-container-1">
+       <div class="bill-1-container">
+          <span class="bill-1">Bill</span> 
+          <input class="billinput" type="number" placeholder="0.00" required>
+       </div>
+       <div class="select-tips-container">
+          <span class="select-tips">Select Tip %</span>
+          <div class="percentages">
+            <button><span class="btn">5</span>%</button>
+            <button ><span class="btn">10</span>%</button>
+            <button ><span class="btn">15</span>%</button>
+            <button ><span class="btn">25</span>%</button>
+            <button ><span class="btn">50</span>%</button>
+            
+                <input class="inp-num" type="text" placeholder="Custom" >
+          </div>
+          <div class="no-of-pep-container">
+            <label for="no-of-people">Number of People</label>
+            <input type="number" id="no-of-people" placeholder="0.00" required>
+          </div>
+       </div>
+    </div>
+</form>
+
+    <div class="sub-container-2">
+        <div class="tip-amt">
+            <h3>Tip Amount <br> <span>/person</span></h3>
+            <h2 class="tipAmtFigure">$0.00</h2>
+        </div>
+        <div class="Total">
+            <h3>Total <br> <span>/person</span></h3>
+            <h2 class="total-amount">$0.00</h2>
+        </div>
+        <button class="reset-btn" type="reset">RESET</button>
+    </div>
+</section>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
